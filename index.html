@@ -55,7 +55,27 @@
           <div class="row">
             <div class="col-6">
               <div class="card">
-                <img src="./images/avengers.jpg" class="mb-2 rounded-top" alt="avengers picture" width="414" height="207">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/avengers.jpg" class="d-block w-100 rounded-top" alt="avengers picture" width="414" height="207">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/avengers2.jpg" class="d-block w-100 rounded-top" alt="avengers picture" width="414" height="207">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/avenger3.jpg" class="d-block w-100 rounded-top" alt="avengers picture" width="414" height="207">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
                 <div class="card-body">
                   <h5 class="card-title">Avengers: Infinity War</h5>
                   <span class="d-block">
@@ -66,17 +86,59 @@
                     <img src="./images/star.png" alt="yellow star image" width="18" height="20">
                     <span>8.7</span>
                   </span>
-                  <span class="d-flex justify-content-around mt-3">
+                  <div class="d-flex justify-content-around mt-3">
                   <a href="#" class="btn btn-outline-primary">Watch trailer</a>
-                  <a href="#" class="btn btn-outline-info">More info</a>
+                  <a href="#" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal2">More info</a>
+
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel2">The Avengers</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p class="modal-text">Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse the destruction caused by Thanos in Infinity War.
+                          The film was announced in October 2014 as Avengers: Infinity War – Part 2, but Marvel later removed this title. The Russo brothers joined as directors in April 2015, with Markus and McFeely signing on to write the script a month later. The film serves as a conclusion to the story of the MCU up to that point, ending the story arcs for several main characters. The plot revisits several moments from earlier films, bringing back actors and settings from throughout the franchise. Filming began in August 2017 at Pinewood Atlanta Studios in Fayette County, Georgia, shooting back-to-back with Infinity War, and ended in January 2018. Additional filming took place in the Metro and Downtown Atlanta areas, New York state, Scotland, and England. The official title was revealed in December 2018. With an estimated budget of $356–400 million, the film is one of the most expensive films ever made.
+                          Avengers: Endgame premiered in Los Angeles on April 22, 2019, and was released in the United States on April 26, as part of Phase Three of the MCU. The film received praise for its direction, acting, musical score, action sequences, visual effects, and emotional weight, with critics lauding its culmination of the 22-film story. The film grossed $2.798 billion worldwide, surpassing Infinity War's entire theatrical run in just eleven days and breaking numerous box office records, including becoming the highest-grossing film of all time from July 2019 until March 2021. The film received numerous awards and nominations, including a nomination for Best Visual Effects at the 92nd Academy Awards, three nominations at the 25th Critics' Choice Awards (winning two), and a nomination for Special Visual Effects at the 73rd British Academy Film Awards.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                   <a href="#" class="btn btn-outline-success">Bookmark</a>
-                  </span>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <div class="card">
-                <img src="./images/ironman.jpg" class="mb-2 rounded-top" alt="ironman picture" width="414" height="207">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/ironman.jpg" class="d-block w-100 rounded-top" alt="avengers picture" width="414" height="207">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/avengers2.jpg" class="d-block w-100 rounded-top" alt="avengers picture" width="414" height="207">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/avenger3.jpg" class="d-block w-100 rounded-top" alt="avengers picture" width="414" height="207">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
                 <div class="card-body">
                   <h5 class="card-title">The Avengers</h5>
                   <span class="d-block">
@@ -87,11 +149,33 @@
                     <img src="./images/star.png" alt="yellow star image" width="18" height="20">
                     <span>8.1</span>
                   </span>
-                  <span class="d-flex justify-content-around mt-3">
+                  <div class="d-flex justify-content-around mt-3">
                   <a href="#" class="btn btn-outline-primary">Watch trailer</a>
-                  <a href="#" class="btn btn-outline-info">More info</a>
+                  <a href="#" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">More info</a>
+
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">The Avengers</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p class="modal-text">Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse the destruction caused by Thanos in Infinity War.
+                          The film was announced in October 2014 as Avengers: Infinity War – Part 2, but Marvel later removed this title. The Russo brothers joined as directors in April 2015, with Markus and McFeely signing on to write the script a month later. The film serves as a conclusion to the story of the MCU up to that point, ending the story arcs for several main characters. The plot revisits several moments from earlier films, bringing back actors and settings from throughout the franchise. Filming began in August 2017 at Pinewood Atlanta Studios in Fayette County, Georgia, shooting back-to-back with Infinity War, and ended in January 2018. Additional filming took place in the Metro and Downtown Atlanta areas, New York state, Scotland, and England. The official title was revealed in December 2018. With an estimated budget of $356–400 million, the film is one of the most expensive films ever made.
+                          Avengers: Endgame premiered in Los Angeles on April 22, 2019, and was released in the United States on April 26, as part of Phase Three of the MCU. The film received praise for its direction, acting, musical score, action sequences, visual effects, and emotional weight, with critics lauding its culmination of the 22-film story. The film grossed $2.798 billion worldwide, surpassing Infinity War's entire theatrical run in just eleven days and breaking numerous box office records, including becoming the highest-grossing film of all time from July 2019 until March 2021. The film received numerous awards and nominations, including a nomination for Best Visual Effects at the 92nd Academy Awards, three nominations at the 25th Critics' Choice Awards (winning two), and a nomination for Special Visual Effects at the 73rd British Academy Film Awards.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                   <a href="#" class="btn btn-outline-success">Bookmark</a>
-                  </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -107,5 +191,6 @@
         </div>
       </div>
   </div>
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
